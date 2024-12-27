@@ -3,7 +3,7 @@
 Welcome to the **Sales Data Clustering Analysis** repository!  
 This project applies **K-Means Clustering** to uncover patterns and groupings in a real-world sales dataset. It leverages dimensionality reduction techniques like **PCA** to visualize clusters in a comprehensible way.
 
-## **Overview**
+## **✨ Overview**
 
 This project demonstrates the end-to-end workflow for clustering analysis using **K-Means**:
 - Data preprocessing and cleaning.
@@ -13,7 +13,7 @@ This project demonstrates the end-to-end workflow for clustering analysis using 
 
 ---
 
-## **Key Features**
+## **📌 Key Features**
 
 - **Clustering with K-Means**: Groups data into distinct clusters for insightful segmentation.
 - **Elbow Method**: Determines the ideal number of clusters by analyzing within-cluster variance.
@@ -22,20 +22,19 @@ This project demonstrates the end-to-end workflow for clustering analysis using 
 
 ---
 
-## **Tools and Libraries**
+## **🔧 Tools and Libraries**
 
-### **Languages**:
+### **🐍 Languages**:
 - Python
 
-### **Libraries**:
+### **🤖 Libraries**:
 - `pandas`: Data manipulation and cleaning.
 - `numpy`: Numerical computation.
 - `matplotlib` & `seaborn`: Data visualization.
-- `scikit-learn`: Machine learning tools for clustering and PCA.
 
 ---
 
-## **Dataset**
+## **📚 Dataset**
 
 The analysis uses the `sales_data_sample.csv` file, which includes transactional sales data.  
 **Columns dropped during preprocessing**:
@@ -44,7 +43,7 @@ The analysis uses the `sales_data_sample.csv` file, which includes transactional
 
 ---
 
-## **Methodology**
+## **📂 Methodology**
 
 ### 1. **Data Preprocessing**
 - Dropped unnecessary columns to focus on clustering-relevant data.
@@ -92,7 +91,7 @@ The analysis uses the `sales_data_sample.csv` file, which includes transactional
 
 ---
 
-## **Results**
+## **📈 Results**
 
 ### **Optimal Number of Clusters**
 The **Elbow Method** revealed that 3 clusters (k=3) provide the best balance between cluster variance and complexity.
@@ -106,25 +105,36 @@ The **Elbow Method** revealed that 3 clusters (k=3) provide the best balance bet
 
 ---
 
-## **Visuals**
+## **🔍 Visuals**
 
 ### 1. **Elbow Plot**  
 Illustrates the optimal number of clusters based on distortion scores.  
-*(Insert image: `elbow_plot.png`)*  
+![image](https://github.com/user-attachments/assets/ed3e4f8c-0e89-437a-92f3-de0c13bee54c)
+ 
 
 ### 2. **Cluster Scatter Plot**  
 Visualizes the PCA-reduced data points grouped into clusters.  
-*(Insert image: `cluster_scatter.png`)*  
+![image](https://github.com/user-attachments/assets/66ea934a-361f-41ce-a745-b9c52a91aace)
+
 
 ### 3. **Centroid Visualization**  
 Highlights cluster centroids in the PCA space.  
-*(Insert image: `centroid_plot.png`)*
+![image](https://github.com/user-attachments/assets/a2313daa-cbd6-49c0-84d5-1c01fda6f6f8)
+
 
 ---
 
-## **Usage Instructions**
+## **🚀 Usage Instructions**
 
 ### **Clone Repository**
 ```bash
 git clone https://github.com/yourusername/sales-data-clustering.git
-
+```
+### **Install Required Libraries**
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+### **Run the Code**
+```bash
+jupyter notebook KMeans_Clustering_Sales_Data.ipynb
+```
