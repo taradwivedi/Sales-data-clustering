@@ -69,7 +69,7 @@ The analysis uses the `sales_data_sample.csv` file, which includes transactional
 
 ---
 
-## **Code Overview**
+## **💻 Code Overview**
 
 ### **Key Steps in the Code**:
 1. **Preprocessing**:
