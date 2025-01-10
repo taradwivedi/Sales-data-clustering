@@ -128,7 +128,7 @@ Highlights cluster centroids in the PCA space.
 
 ### **Clone Repository**
 ```bash
-git clone https://github.com/yourusername/sales-data-clustering.git
+git clone https://github.com/taradwivedi/sales-data-clustering.git
 ```
 ### **Install Required Libraries**
 ```bash
